@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+
+.home{
+    background-image: url(Images/pexels-mstudio-360817-1449844.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+}
+
+
+.home p{
+    font-family: "Anton SC", sans-serif;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 9%;
+    color: rgb(5, 5, 5);
+}
+
+h2{
+    font-family: "Anton SC", sans-serif;
+    font-size: 30px;
+   
+}
+.h {
+    height: 90vh;
+}
+.i{
+    margin-top: 0%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.f{
+    display: flex;
+    gap:9px;
+}
+.u{
+    color:red;
+}
+.o{
+    list-style-type: none;
+    margin: 17px;
+}
+#Recommended{
+    font-family: "Anton SC", sans-serif;
+}
+.lis{
+    display: flex;
+    gap:6px;
+}
+
+
+@media(min-width:320px) and (max-width:768px){
+    .home p{
+       
+        font-size: 50px;
+        color: black;       
+       
+    }
+    .f{
+    display: block;
+  
+    }
+    .lis{
+        display: block;
+    }
+}
